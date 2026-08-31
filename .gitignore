@@ -1,7 +1,8 @@
-# Data files — never commit scraped/generated data, only source code
+# Data files — never commit scraped/generated data, only source code.
+# (README.md and other docs are tracked; only the generated report is ignored.)
 *.txt
 *.json
-*.md
+dogs_full_details.md
 
 # Downloaded raw HTML detail pages (local cache)
 details/
