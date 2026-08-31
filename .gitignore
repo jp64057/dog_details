@@ -1,0 +1,20 @@
+# Data files — never commit scraped/generated data, only source code
+*.txt
+*.json
+*.md
+
+# Downloaded raw HTML detail pages (local cache)
+details/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
